@@ -2,8 +2,8 @@
 #include<iostream>
 using namespace std;
 
-Moto::Moto(int m_portes, int anneFab, int nbrRoues, double m_vitesse)
-	:Vehicule(m_portes,anneFab,nbrRoues) {
+Moto::Moto(int anneFab, int nbrRoues, double m_vitesse)
+	:Vehicule(anneFab,nbrRoues) {
 	this->m_vitesse = m_vitesse;
 }
 
