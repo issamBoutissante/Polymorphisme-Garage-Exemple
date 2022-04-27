@@ -13,3 +13,4 @@ void Vehicule::afficher() {
 	cout << "- Anne Fabrication : " << this->anneFab << endl;
 	cout << "- Nombre Roues : " << this->nbrRoues << endl;
 }
+int Vehicule::getNbrRoues() { return this->nbrRoues; }
